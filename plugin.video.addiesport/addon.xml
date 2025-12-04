@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.addiesport" name="AddieSport" version="1.0.0" provider-name="Addie">
+<addon id="plugin.video.addiesport"
+       name="AddieSport"
+       version="1.0.0"
+       provider-name="Addie">
+
   <requires>
-    <!--import addon="xbmc.python" version="2.1.0"/-->
+    <!-- Core Kodi Python dependency (Kodi 19+ uses 3.0.0) -->
+    <import addon="xbmc.python" version="3.0.0" />
+
+    <!-- Extra modules you said you need.
+         Only keep these if you actually import them in default.py -->
     <import addon="script.module.dateutil" />
     <import addon="script.module.six" />
-    <import addon="script.module.requests" version="2.19.1"/>
+    <import addon="script.module.requests" />
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
   <extension point="xbmc.addon.metadata">
     <summary lang="en">AddieSport by Addie</summary>
     <description lang="en">Sport Streams</description>
-    <disclaimer lang="en">All the streams on this add-on are hosted on the third party site and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
-	  <language>EN</language>
+    <disclaimer lang="en">
+      All the streams on this add-on are hosted on third-party sites and uploaded by other people.
+      We are not responsible for any content that is hosted on those sites. If you have any legal
+      issues please contact the appropriate video owners/hosters.
+    </disclaimer>
+    <language>en</language>
     <license>GNU GPL, version 2</license>
     <news>
       - compatible with Kodi 18.x - 19.x - 20.x - 21.x version
     </news>
-
+    <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+
 </addon>
