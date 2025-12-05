@@ -4,7 +4,7 @@
     <!-- Addie Streams Repository Add-on -->
     <addon id="repository.addiesport"
            name="AddieSport"
-           version="1.0.1"
+           version="1.0.2"
            provider-name="Addie">
         <extension point="xbmc.addon.repository" name="AddieSport">
             <dir>
@@ -28,7 +28,7 @@
     <!-- Addie Sports Video Add-on -->
     <addon id="plugin.video.addiesport"
            name="Addie Sport"
-           version="1.0.1"
+           version="1.0.2"
            provider-name="Addie">
 
         <!-- Dependencies -->
