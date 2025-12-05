@@ -34,8 +34,8 @@
     </news>
     <platform>all</platform>
     <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
+      <icon>icon1.png</icon>
+      <fanart>fanart1.jpg</fanart>
     </assets>
   </extension>
 
